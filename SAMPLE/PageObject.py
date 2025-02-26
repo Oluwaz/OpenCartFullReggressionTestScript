@@ -5,5 +5,13 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 
-class OpenCart():
-    pass
+class Aphonics():
+    def __init__(self, driver):
+        self.driver = driver
+        driver.get('https://www.aphonicss.com/')
+        driver.maximize_window()
+        
+    
+    def NewArrivals():
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable())
+        pass
