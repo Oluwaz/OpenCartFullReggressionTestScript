@@ -12,6 +12,6 @@ class Aphonics():
         driver.maximize_window()
         
     
-    def NewArrivals():
+    def NewArrivals(self):
         WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable())
         pass
